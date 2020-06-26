@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxogden/discovery-channel.git"
+    "url": "git+https://github.com/maxogden/dweb-discovery-channel.git"
   },
   "bugs": {
-    "url": "https://github.com/maxogden/discovery-channel/issues"
+    "url": "https://github.com/maxogden/dweb-discovery-channel/issues"
   },
-  "homepage": "https://github.com/maxogden/discovery-channel#readme"
+  "homepage": "https://github.com/maxogden/dweb-discovery-channel#readme"
 }
