@@ -1,10 +1,10 @@
-var dns = require('dweb-dns-discovery')
+var dns = require('dns-discovery')
 var dht = require('bittorrent-dht')
 var thunky = require('thunky')
 var crypto = require('crypto')
 var events = require('events')
 var util = require('util')
-var debug = require('debug')('dweb-discovery-channel')
+var debug = require('debug')('discovery-channel')
 var prettyHash = require('pretty-hash')
 var bufferFrom = require('buffer-from')
 
