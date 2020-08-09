@@ -1,21 +1,21 @@
-# discovery-channel
+# dweb-discovery-channel
 
 Search for a key across multiple discovery networks and find peers who answer.
 
 Currently searches across and advertises on [the Bittorrent DHT](https://en.wikipedia.org/wiki/Mainline_DHT), centralized DNS servers and [Multicast DNS](https://en.wikipedia.org/wiki/Multicast_DNS) simultaneously.
 
-Uses the [bittorrent-dht](https://github.com/feross/bittorrent-dht) and [dns-discovery](https://github.com/mafintosh/dns-discovery) modules.
+Uses the [bittorrent-dht](https://github.com/feross/bittorrent-dht) and [dweb-dns-discovery](https://github.com/distributedweb/dweb-dns-discovery) modules.
 
-Also check out [discovery-swarm](https://github.com/mafintosh/discovery-swarm) which adds connection management on top of this module.
+Also check out [dweb-discovery-swarm](https://github.com/distributedweb/dweb-discovery-swarm) which adds connection management on top of this module.
 
 [![travis][travis-image]][travis-url]
 
-[travis-image]: https://img.shields.io/travis/maxogden/discovery-channel.svg?style=flat
-[travis-url]: https://travis-ci.org/maxogden/discovery-channel
+[travis-image]: https://img.shields.io/travis/maxogden/dweb-discovery-channel.svg?style=flat
+[travis-url]: https://travis-ci.org/maxogden/dweb-discovery-channel
 
 ## Usage
 
-### `var DC = require('discovery-channel')`
+### `var DC = require('dweb-discovery-channel')`
 
 Returns a constructor
 
@@ -23,7 +23,7 @@ Returns a constructor
 
 Returns a new instance. `opts` is optional and can have the following properties:
 
-- `dns` - default `undefined`, if `false` will disable `dns` discovery, any other value type will be passed to the `dns-discovery` constructor
+- `dns` - default `undefined`, if `false` will disable `dns` discovery, any other value type will be passed to the `dweb-dns-discovery` constructor
 - `dht` - default `undefined`, if `false` will disable `dht` discovery, any other value type will be passed to the `bittorrent-dht` constructor
 - `hash` - default `sha1`. provide a custom hash function to hash ids before they are stored in the dht / on dns servers.
 

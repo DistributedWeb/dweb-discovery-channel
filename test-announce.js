@@ -4,8 +4,8 @@ var bufferFrom = require('buffer-from')
 var channel = DC({
   dns: {
     servers: [
-      'discovery1.publicbits.org',
-      'discovery2.publicbits.org'
+      'discovery1.dwebx.net',
+      'discovery2.dwebx.net'
     ]
   }
 })

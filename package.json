@@ -1,18 +1,18 @@
 {
-  "name": "discovery-channel",
-  "version": "5.5.1",
+  "name": "dweb-discovery-channel",
+  "version": "1.0.0",
   "description": "discover peers that have hashes using various kewl methods",
   "main": "index.js",
   "scripts": {
     "test": "standard && node test.js"
   },
-  "author": "max ogden",
+  "author": "jared ",
   "license": "ISC",
   "dependencies": {
     "bittorrent-dht": "^7.10.0",
     "buffer-from": "^1.0.0",
     "debug": "^2.6.9",
-    "dns-discovery": "^6.0.1",
+    "dweb-dns-discovery": "git://github.com/DistributedWeb/dweb-dns-discovery.git#13a0cc8e31f0d0d9fcb5d789ab3f3f0af51678a7",
     "pretty-hash": "^1.0.1",
     "thunky": "^0.1.0"
   },
@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxogden/discovery-channel.git"
+    "url": "git+https://github.com/maxogden/dweb-discovery-channel.git"
   },
   "bugs": {
-    "url": "https://github.com/maxogden/discovery-channel/issues"
+    "url": "https://github.com/maxogden/dweb-discovery-channel/issues"
   },
-  "homepage": "https://github.com/maxogden/discovery-channel#readme"
+  "homepage": "https://github.com/maxogden/dweb-discovery-channel#readme"
 }
